@@ -50,7 +50,7 @@ let str='<td>Empty</td><td>Empty</td><td>Empty</td><td>Empty</td>';
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({ 'Name':name,'mobile':number,'fruit':fruit,'price':price })
+        body: JSON.stringify({ name,number,fruit,price })
       });
     };
   return ( 
